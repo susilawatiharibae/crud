@@ -13,18 +13,18 @@
     {
         $simpan =mysqli_query($koneksi, "INSERT INTO nilai_siswa (nama, fisika, kimia, biologi, bhs.indo, bhs.inggris, bhs.arab, pkn, sejarah, matematika, kesenian, penjas)
                                          VALUES ('$_POST[tnama]', 
-                                                '$_POST[tfisika]', 
-                                                '$_POST[tkimia]',
-                                                '$_POST[tbiologi]',
-                                                '$_POST[tbhs_indo]',
-                                                '$_POST[tbhs_inggris]',
-                                                '$_POST[tbhs_arab]',
-                                                '$_POST[tpkn]',
-                                                '$_POST[tsejarah]',
-                                                '$_POST[tmatematika]',
-                                                '$_POST[tkesenian]',
-                                                '$_POST[tpenjas]')
-                                                ");
+                                                 '$_POST[tfisika]', 
+                                                 '$_POST[tkimia]',
+                                                 '$_POST[tbiologi]',
+                                                 '$_POST[tbhs_indo]',
+                                                 '$_POST[tbhs_inggris]',
+                                                 '$_POST[tbhs_arab]',
+                                                 '$_POST[tpkn]',
+                                                 '$_POST[tsejarah]',
+                                                 '$_POST[tmatematika]',
+                                                 '$_POST[tkesenian]',
+                                                 '$_POST[tpenjas]')
+                                ");
         if($simpan) //Jika Simpan Sukses!
         {
             echo "<script>
@@ -45,12 +45,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <tittle></tittle>
+    <title>Tugas Web Programming</title>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 </head>
 <body>
 <div class="container">
-    <h1 class="text-center">UAS WEB PROGRAMMING</h1>
+    <h1 class="text-center">UAS WEB PROGRAMMING CRUD (Framework Bootstrap + Db4free.net)</h1>
     <h2 class="text-center">Susilawati Haribae (1905042)</h2>
 
     <!-- Awal Card Form -->
